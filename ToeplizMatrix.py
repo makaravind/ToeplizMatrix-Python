@@ -1,6 +1,6 @@
 # representing in 1D for better search and performance
-input = [6, 7, 8, 9, 2, 4, 6, 7, 8, 9, 1, 4, 6, 7, 8, 0, 1, 4, 6, 7]
-# input = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+#input = [6, 7, 8, 9, 2, 4, 6, 7, 8, 9, 1, 4, 6, 7, 8, 0, 1, 4, 6, 7]
+ input = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
 # input = [6]
 
 # assuming a sqmat always
