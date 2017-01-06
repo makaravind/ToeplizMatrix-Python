@@ -1,6 +1,6 @@
 # representing in 1D for better search and performance
 #input = [6, 7, 8, 9, 2, 4, 6, 7, 8, 9, 1, 4, 6, 7, 8, 0, 1, 4, 6, 7]
- input = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+input = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
 # input = [6]
 
 # assuming a sqmat always
@@ -17,7 +17,7 @@ def isToeplizMatrix(input_matrix, size):
         #print(input[i: i+size])
         observed_pattern = input[i: i + size] #cosidering all the elements in the row
         to_append_ele = observed_pattern[0] #taking the first ele away from the pattern
-        observed_pattern = observed_pattern[1:]
+        observed_pattern == observed_pattern[1:]
         if init_pattern == observed_pattern: #checking if the toepliz nature holds
             observed_pattern.insert(0, to_append_ele)
             init_pattern = observed_pattern[:len(observed_pattern)-1] #reading the init_pattern for next round
